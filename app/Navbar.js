@@ -10,7 +10,7 @@ const Navbar = () => {
         <>
             <nav className="bg-black">
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
@@ -19,7 +19,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="hidden md:block">
-                            <div className="ml-4 flex items-center space-x-4">
+                            <div className="ml-4 flex items-center space-x-4 ">
                                 <a href="/" className="text-white hover:bg-white hover:text-black rounded-lg p-2">Home</a>
                                 <a href="/" className="text-white hover:bg-white hover:text-black rounded-lg p-2">About</a>
                                 <a href="/" className="text-white hover:bg-white hover:text-black rounded-lg p-2">Services</a>
@@ -70,7 +70,7 @@ const Navbar = () => {
                 </div>
                 {isClick && (
                     <div className="md:hidden">
-                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black fixed h-full w-full z-10">
                             <a href="/" className="text-white block hover:bg-white hover:text-black rounded-lg p-2">Home</a>
                             <a href="/" className="text-white block hover:bg-white hover:text-black rounded-lg p-2">About</a>
                             <a href="/" className="text-white block hover:bg-white hover:text-black rounded-lg p-2">Services</a>
